@@ -1,0 +1,63 @@
+
+.App-header {
+  display: block;
+  letter-spacing: 1.5px;
+  padding-top: .5%;
+}
+
+.header {
+  display: block;
+  text-align: right;
+  cursor: default;
+}
+
+.header-text {
+  display: inline-block;
+  font-size: 15px;
+  margin: 0;
+  padding: 0 1vw;
+  transition: color 0.5s ease;
+  color: #804ffb;
+}
+
+.header-text:hover {
+  transition: color 0.5s ease;
+  color: white;
+}
+
+.menu {
+  width: 40vw;
+  margin: 1% 2.5%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
+  height: 2vw;
+}
+
+li {
+  list-style:none;
+  padding: 5px 0;
+}
+
+.menu-text {
+  display: inline-block;
+  width: 9vw;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color 0.5s ease;
+  color: #804ffb;
+  font-weight: bold;
+}
+
+.menu-text:hover {
+  transition: color 0.5s ease;
+  color: white;
+}
+
+
+
