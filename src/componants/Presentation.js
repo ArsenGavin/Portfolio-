@@ -1,9 +1,10 @@
-
-import '../css/Presentation.css';
+import React from 'react';
+// import ReactDOM from 'react-dom';
+import '../style/Presentation.scss';
 
 function Presentation() {
   return (
-    <div className="presentation-component presentation">
+    <div className="presentation-component">
       <h3>Profil</h3>
       <div className="presentation-list">
         <div className="presentation-text1">
@@ -21,10 +22,12 @@ function Presentation() {
       <p className="presentation-text presentation-text-alt">javascript | jquery</p>
       <p className="presentation-text presentation-text-alt">Vue.js  | react.js</p>
       <p className="presentation-text presentation-text-alt">wordpress | joomla</p>
-      <p className="presentation-text presentation-text-alt">css  |  sass</p>
+      <p className="presentation-text presentation-text-alt">html | css  |  sass</p>
       <p className="presentation-text presentation-text-alt">github</p>
     </div>
   );
 }
 
 export default Presentation;
+
+// ReactDOM.render(Presentation, document.querySelector('.main-content'));

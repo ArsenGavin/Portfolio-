@@ -1,0 +1,45 @@
+.video-fond {
+  position: fixed;
+  top: 39.5%;
+  right: 0px;
+  width: 560px;
+  height: 46%;
+  transform: rotateZ(3deg);
+  z-index: -9999;
+}
+
+.App {
+  position: relative;
+
+    &::before {
+      content: "";
+      position: fixed;
+      color: black;
+      background: url("../img/fond3.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      display: block;
+      width: 80vh;
+      height: 100vh;
+      top: 0;
+      right: -25px;
+      z-index: -9999;
+    }
+}
+
+
+
+.citation {
+  position: fixed;
+  bottom: 0;
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding-left: 1%;
+  transition: color 0.5s ease;
+  color: #eae5db;
+
+    .citation:hover {
+      transition: color 0.5s ease;
+      color: #dc3ab8c9;
+    }
+}

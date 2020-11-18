@@ -1,4 +1,4 @@
-import '../css/Menu.css';
+import '../style/Header.scss';
 
 function Header() {
   return (
@@ -11,10 +11,10 @@ function Header() {
         </div>
         <nav className="menu">
             <ul>
-                <li><a href="/" className="menu-text">Présentation</a></li>
-                <li><a href="/" className="menu-text">P_ Pro</a></li>
-                <li><a href="/" className="menu-text">P_ Epitech</a></li>
-                <li><a href="/" className="menu-text">P_ Perso</a></li>
+                <li><a href="/Presentation" className="menu-text">Présentation</a></li>
+                <li><a href="/ProjetsPro" className="menu-text">P_ Pro</a></li>
+                <li><a href="/ProjetsEpitech" className="menu-text">P_ Epitech</a></li>
+                <li><a href="/ProjetsPerso" className="menu-text">P_ Perso</a></li>
             </ul>
         </nav>
       </header>

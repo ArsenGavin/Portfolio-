@@ -1,0 +1,48 @@
+.presentation-component{
+  width: 25vw;
+  height: auto;
+  border: 2px solid;
+  border-color: #eae5db;
+  border-radius: 15px;
+  margin: 3% 0 0 9%;
+  text-transform: uppercase;
+  cursor: default;
+
+    h3 {
+      font-size: 1.3vw;
+      text-align: center;
+      color:  #dc3ab8c9;
+    }
+
+    .presentation-list {
+      display: flex;
+      justify-content: center;
+    }
+
+    .presentation-text {
+      padding: 10px 0;
+      color: #eae5db;
+    }
+
+    .presentation-text2 {
+      text-align: right;
+      font-weight: bold;
+      width: 14vw;
+      margin-bottom: 2%;
+    }
+
+    .presentation-text-alt {
+      color: #eae5db;
+      font-weight: bold;
+      text-align: center;
+    }  
+}
+
+
+
+
+
+
+
+
+

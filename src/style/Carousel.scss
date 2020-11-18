@@ -1,0 +1,27 @@
+.slider-component {
+  width: 40vw;
+  margin-left: 5%;
+
+    button {
+      width: 1vw;
+    }
+    
+    .slick-prev:before, .slick-next:before {
+      color: #eae5db;
+      font-size: 30px;
+    }
+}
+
+.slider-item {
+  text-align: left;
+  margin-left: 5%;
+  padding: 0 5% 5%;
+  color: #eae4db;
+  border: 2px solid #eae5db;
+  border-radius: 15px;
+  width: 80%!important;
+
+    img {
+      margin: 0 auto;
+    }
+}
